@@ -1,0 +1,16 @@
+# 构建产物
+bin/
+obj/
+
+# 运行时状态（每台机器不同）
+logs/
+config.json
+
+# IDE
+.vs/
+*.user
+*.suo
+
+# 杂项
+Thumbs.db
+.DS_Store

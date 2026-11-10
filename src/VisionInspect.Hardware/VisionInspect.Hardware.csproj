@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>VisionInspect.Hardware</RootNamespace>
+    <AssemblyName>VisionInspect.Hardware</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="halcondotnet">
+      <HintPath>C:\Program Files\MVTec\HALCON-26.05-Progress\bin\dotnet35\halcondotnet.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4" Version="4.13.0.20261107" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.13.0.20261107" />
+  </ItemGroup>
+</Project>

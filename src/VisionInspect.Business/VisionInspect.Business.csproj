@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>VisionInspect.Business</RootNamespace>
+    <AssemblyName>VisionInspect.Business</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="halcondotnet">
+      <HintPath>C:\Program Files\MVTec\HALCON-26.05-Progress\bin\dotnet35\halcondotnet.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <ProjectReference Include="..\VisionInspect.Algorithm\VisionInspect.Algorithm.csproj" />
+    <ProjectReference Include="..\VisionInspect.Hardware\VisionInspect.Hardware.csproj" />
+  </ItemGroup>
+</Project>

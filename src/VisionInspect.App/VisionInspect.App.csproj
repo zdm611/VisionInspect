@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>VisionInspect.App</RootNamespace>
+    <AssemblyName>VisionInspect</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="halcondotnet">
+      <HintPath>C:\Program Files\MVTec\HALCON-26.05-Progress\bin\dotnet35\halcondotnet.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <ProjectReference Include="..\VisionInspect.Business\VisionInspect.Business.csproj" />
+    <ProjectReference Include="..\VisionInspect.Algorithm\VisionInspect.Algorithm.csproj" />
+    <ProjectReference Include="..\VisionInspect.Hardware\VisionInspect.Hardware.csproj" />
+  </ItemGroup>
+</Project>
